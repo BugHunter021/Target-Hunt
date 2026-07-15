@@ -39,7 +39,7 @@
 | 13 | `POST /api/graphql/kraken` | `routes/api.ts` | `need ⚠️` | 
 | 14 | `POST /api/graphql/oe` | `routes/api.ts` | `need ⚠️` | 
 | 15 | `POST /api/initiate-product-switch` | `routes/api.ts` | `Y-not exist ❌` | 
-| 16 | `POST /api/onboarding/check` | `routes/api.ts` | `need ⚠️` | 
+| 16 | `POST /api/onboarding/check` | `routes/api.ts` | `Y-not important - check again 1 month ♻️` | 
 | 17 | `POST /api/onboarding/submit-form` | `routes/api.ts` | `No need ❌` |
 | 18 | `POST /api/retail-lead` | `routes/api.ts` | `y-zoha form ❌` |
 | 19 | `POST /api/solar-lead` | `routes/api.ts` | `y-zoha form ❌` |
