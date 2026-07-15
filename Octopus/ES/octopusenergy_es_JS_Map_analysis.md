@@ -34,7 +34,7 @@
 | 8 | `GET  /api/comparator/reference-rates` | `routes/api.ts` | `no need ❌` | 
 | 9 | `POST /api/contract-embedded-url` *(real: `/api/contract-ln-url`)* | `routes/api.ts` |  `y-zoha form ❌` |
 | 10 | `POST /api/create-energy-account` | `routes/api.ts` |  `Y-Valnerable ✅` |
-| 11 | `POST /api/ev-charger-lead` | `routes/api.ts` | `need ⚠️` | 
+| 11 | `POST /api/ev-charger-lead` | `routes/api.ts` | `Y-not important ❌` | 
 | 12 | `POST /api/fraud-meter-point-checks` | `routes/api.ts` | `Y-not important ❌` | 
 | 13 | `POST /api/graphql/kraken` | `routes/api.ts` | `need ⚠️` | 
 | 14 | `POST /api/graphql/oe` | `routes/api.ts` | `need ⚠️` | 
