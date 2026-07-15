@@ -24,29 +24,29 @@
 
 | # | Endpoint | Source File | Check |
 |---|----------|-------------|-------------|
-| 1 | `POST /api/auth/login` | `routes/api.ts` | `No need` |
-| 2 | `POST /api/auth/logout` | `routes/api.ts` | `No need` |
-| 3 | `GET  /api/auth/session` | `routes/api.ts` | `No need` |
-| 4 | `POST /api/battery-lead` | `routes/api.ts` | `y-zoha form` |
-| 5 | `POST /api/check-contract-sign-status` | `routes/api.ts` | `y-zoha form` |
-| 6 | `POST /api/check-sign-status` | `routes/api.ts` | `y-zoha form` |
-| 7 | `POST /api/comparator/calculate` | `routes/api.ts` | `Yes` |
-| 8 | `GET  /api/comparator/reference-rates` | `routes/api.ts` | `no need` | 
-| 9 | `POST /api/contract-embedded-url` *(real: `/api/contract-ln-url`)* | `routes/api.ts` |  `y-zoha form` |
-| 10 | `POST /api/create-energy-account` | `routes/api.ts` |  `Y-Valnerable` |
-| 11 | `POST /api/ev-charger-lead` | `routes/api.ts` |
-| 12 | `POST /api/fraud-meter-point-checks` | `routes/api.ts` |
-| 13 | `POST /api/graphql/kraken` | `routes/api.ts` |
-| 14 | `POST /api/graphql/oe` | `routes/api.ts` |
-| 15 | `POST /api/initiate-product-switch` | `routes/api.ts` |
-| 16 | `POST /api/onboarding/check` | `routes/api.ts` |
-| 17 | `POST /api/onboarding/submit-form` | `routes/api.ts` |
-| 18 | `POST /api/retail-lead` | `routes/api.ts` |
-| 19 | `POST /api/solar-lead` | `routes/api.ts` |
-| 20 | `POST /api/validation` | `routes/api.ts` |
-| 21 | `GET  /api/queries/productsWithoutEstimates` | `entities/product` |
-| 22 | `GET  /api/content-delivery/v2/stories/retrieve-a-single-story` | `lib/storyblok` |
-| 23 | `POST /api/v1/requests` | `routes/external.ts` |
+| 1 | `POST /api/auth/login` | `routes/api.ts` | `No need ❌` |
+| 2 | `POST /api/auth/logout` | `routes/api.ts` | `No need ❌` |
+| 3 | `GET  /api/auth/session` | `routes/api.ts` | `No need ❌` |
+| 4 | `POST /api/battery-lead` | `routes/api.ts` | `y-zoha form ❌` |
+| 5 | `POST /api/check-contract-sign-status` | `routes/api.ts` | `y-zoha form ❌` |
+| 6 | `POST /api/check-sign-status` | `routes/api.ts` | `y-zoha form ❌` |
+| 7 | `POST /api/comparator/calculate` | `routes/api.ts` | `Y-calc ❌` |
+| 8 | `GET  /api/comparator/reference-rates` | `routes/api.ts` | `no need ❌` | 
+| 9 | `POST /api/contract-embedded-url` *(real: `/api/contract-ln-url`)* | `routes/api.ts` |  `y-zoha form ❌` |
+| 10 | `POST /api/create-energy-account` | `routes/api.ts` |  `Y-Valnerable ✅` |
+| 11 | `POST /api/ev-charger-lead` | `routes/api.ts` | `need ⚠️` | 
+| 12 | `POST /api/fraud-meter-point-checks` | `routes/api.ts` | `Y-not important ❌` | 
+| 13 | `POST /api/graphql/kraken` | `routes/api.ts` | `need ⚠️` | 
+| 14 | `POST /api/graphql/oe` | `routes/api.ts` | `need ⚠️` | 
+| 15 | `POST /api/initiate-product-switch` | `routes/api.ts` | `Y-not exist ❌` | 
+| 16 | `POST /api/onboarding/check` | `routes/api.ts` | `need ⚠️` | 
+| 17 | `POST /api/onboarding/submit-form` | `routes/api.ts` | `No need ❌` |
+| 18 | `POST /api/retail-lead` | `routes/api.ts` | `y-zoha form ❌` |
+| 19 | `POST /api/solar-lead` | `routes/api.ts` | `y-zoha form ❌` |
+| 20 | `POST /api/validation` | `routes/api.ts` | `Y-not important ❌` | 
+| 21 | `GET  /api/queries/productsWithoutEstimates` | `entities/product` | `Y-not important ❌` | 
+| 22 | `GET  /api/content-delivery/v2/stories/retrieve-a-single-story` | `lib/storyblok` | `No need ❌` |
+| 23 | `POST /api/v1/requests` | `routes/external.ts` | `need ⚠️` | 
 
 ### Detailed Endpoint Descriptions
 
