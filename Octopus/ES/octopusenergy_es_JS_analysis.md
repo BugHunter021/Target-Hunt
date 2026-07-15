@@ -1,9 +1,12 @@
-      OCTOPUSENERGY.ES (SPAIN) — SOURCE CODE ANALYSIS REPORT
-      Method: sourcemapper (github.com/denandz/sourcemapper) on 144 .js.map files
-      Source tree reconstructed: ~/target/es/map/reconstructed/ (3752 files, 34MB)
-      App source at: webpack:/_N_E/src/  (Next.js + React + TypeScript)
-      Date: 2026-07-11
-
+# OCTOPUSENERGY.ES (SPAIN) — SOURCE CODE ANALYSIS REPORT
+> **Method: sourcemapper (github.com/denandz/sourcemapper) on 144 .js.map files**
+> 
+> **Source tree reconstructed: ~/target/es/map/reconstructed/ (3752 files, 34MB)**
+> 
+> **App source at: webpack:/_N_E/src/  (Next.js + React + TypeScript)**
+> 
+> **Date: 2026-07-11**
+---
 
 --------------------------------------------------------------------------------
 1. RECONSTRUCTION SUMMARY
