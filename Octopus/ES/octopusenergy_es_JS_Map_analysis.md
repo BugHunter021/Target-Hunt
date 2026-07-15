@@ -46,7 +46,7 @@
 | 20 | `POST /api/validation` | `routes/api.ts` | `Y-not important ❌` | 
 | 21 | `GET  /api/queries/productsWithoutEstimates` | `entities/product` | `Y-not important ❌` | 
 | 22 | `GET  /api/content-delivery/v2/stories/retrieve-a-single-story` | `lib/storyblok` | `No need ❌` |
-| 23 | `POST /api/v1/requests` | `routes/external.ts` | `need ⚠️` | 
+| 23 | `POST /api/v1/requests` | `routes/external.ts` | `Y-zoho asset ❌` | 
 
 ### Detailed Endpoint Descriptions
 
