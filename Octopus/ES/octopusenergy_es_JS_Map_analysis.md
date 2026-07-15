@@ -22,18 +22,18 @@
 
 ## 2. REST API Endpoints
 
-| # | Endpoint | Source File |
-|---|----------|-------------|
-| 1 | `POST /api/auth/login` | `routes/api.ts` |
-| 2 | `POST /api/auth/logout` | `routes/api.ts` |
-| 3 | `GET  /api/auth/session` | `routes/api.ts` |
-| 4 | `POST /api/battery-lead` | `routes/api.ts` |
-| 5 | `POST /api/check-contract-sign-status` | `routes/api.ts` |
-| 6 | `POST /api/check-sign-status` | `routes/api.ts` |
-| 7 | `POST /api/comparator/calculate` | `routes/api.ts` |
-| 8 | `GET  /api/comparator/reference-rates` | `routes/api.ts` |
-| 9 | `POST /api/contract-embedded-url` *(real: `/api/contract-ln-url`)* | `routes/api.ts` |
-| 10 | `POST /api/create-energy-account` | `routes/api.ts` |
+| # | Endpoint | Source File | Check |
+|---|----------|-------------|-------------|
+| 1 | `POST /api/auth/login` | `routes/api.ts` | `No need` |
+| 2 | `POST /api/auth/logout` | `routes/api.ts` | `No need` |
+| 3 | `GET  /api/auth/session` | `routes/api.ts` | `No need` |
+| 4 | `POST /api/battery-lead` | `routes/api.ts` | `y-zoha form` |
+| 5 | `POST /api/check-contract-sign-status` | `routes/api.ts` | `y-zoha form` |
+| 6 | `POST /api/check-sign-status` | `routes/api.ts` | `y-zoha form` |
+| 7 | `POST /api/comparator/calculate` | `routes/api.ts` | `Yes` |
+| 8 | `GET  /api/comparator/reference-rates` | `routes/api.ts` | `no need` | 
+| 9 | `POST /api/contract-embedded-url` *(real: `/api/contract-ln-url`)* | `routes/api.ts` |  `y-zoha form` |
+| 10 | `POST /api/create-energy-account` | `routes/api.ts` |  `Y-Valnerable` |
 | 11 | `POST /api/ev-charger-lead` | `routes/api.ts` |
 | 12 | `POST /api/fraud-meter-point-checks` | `routes/api.ts` |
 | 13 | `POST /api/graphql/kraken` | `routes/api.ts` |
