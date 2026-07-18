@@ -32,40 +32,40 @@
 ### Onboarding
 | Endpoint | Method | Auth | BOLA |
 |----------|--------|------|------|
-| `/api/onboarding/submit-form` | POST | ❌ | 🔴 High |
-| `/api/onboarding/select-quoted-products` | POST | ❌ | 🟢 |
-| `/api/onboarding/process-bonus-code` | POST | ❌ | 🟡 Bonus enum |
-| `/api/onboarding/handoff/save` | POST | ✅ | 🟢 |
+| `/api/onboarding/submit-form` | POST | ❌ | ⚪️ Register - not vuln |
+| `/api/onboarding/select-quoted-products` | POST | ❌ | ⚪️ Register - not vuln |
+| `/api/onboarding/process-bonus-code` | POST | ❌ | ⚪️ Register - not vuln |
+| `/api/onboarding/handoff/save` | POST | ✅ | ⚪️ Register -need session |
 
 ### Public
 | Endpoint | Method | Auth | BOLA |
 |----------|--------|------|------|
-| `/api/public-cancellation` | POST | ❌ | 🔴 **Confirmed BOLA** |
+| `/api/public-cancellation` | POST | ❌ | ⚪️ loger |
 | `/api/typeform/[formId]/[responseId]` | GET | ❌ | 🟡 |
-| `/api/job-postings` | GET | ❌ | 🟢 |
-| `/api/newsletter-signup` | POST | ❌ | 🟢 |
-| `/api/fan-club-mailist-registration` | POST | ❌ | 🟢 |
+| `/api/job-postings` | GET | ❌ | ⚪️ not important |
+| `/api/newsletter-signup` | POST | ❌ | ⚪️ not important |
+| `/api/fan-club-mailist-registration` | POST | ❌ | ⚪️ not important |
 
 ### Zapier Integrations
 | Endpoint | Method | Auth | BOLA |
 |----------|--------|------|------|
-| `/api/zapier-contract-revocation` | POST | ❌ | 🔴 **HIGH** |
-| `/api/zapier-dual-bonus` | POST | ❌ | 🔴 **HIGH** |
+| `/api/zapier-contract-revocation` | POST | ❌ | ⚪️ 3party |
+| `/api/zapier-dual-bonus` | POST | ❌ | ⚪️ 3party |
 
 ### Post-Registration
 | Endpoint | Method | Auth | BOLA |
 |----------|--------|------|------|
-| `/api/post-registration-business` | POST | ❌ | 🟡 |
-| `/api/post-registration-tou` | POST | ❌ | 🟡 |
+| `/api/post-registration-business` | POST | ❌ | ⚪️ TimeOut Removed |
+| `/api/post-registration-tou` | POST | ❌ | ⚪️ not worked |
 
 ### Other
 | Endpoint | Method | Auth | BOLA |
 |----------|--------|------|------|
-| `/api/self-serve-tariff-switch` | POST | ✅ | 🔴 **HIGH** |
-| `/api/retention-offer/accept` | POST | ✅ | 🔴 **HIGH** |
-| `/api/relocation-collect-errors` | POST | ✅ | 🟢 |
-| `/api/robots` | GET | ❌ | 🟢 |
-| `/api/vercel/flags` | GET | ❌ | 🟢 |
+| `/api/self-serve-tariff-switch` | POST | ✅ | ⚪️ need auth |
+| `/api/retention-offer/accept` | POST | ✅ | ⚪️ need auth |
+| `/api/relocation-collect-errors` | POST | ✅ | ⚪️ not important |
+| `/api/robots` | GET | ❌ | ⚪️ not important |
+| `/api/vercel/flags` | GET | ❌ | ⚪️ not important |
 
 ### GraphQL
 | Endpoint | Backend |
