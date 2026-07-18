@@ -10,24 +10,24 @@
 ### Auth
 | Endpoint | Method | Auth | BOLA |
 |----------|--------|------|------|
-| `/api/auth/login` | POST | ❌ | 🟢 |
-| `/api/auth/logout` | POST | ✅ | 🟢 |
-| `/api/auth/session` | GET | ✅ | 🟢 |
-| `/api/auth/update-org-token` | POST | ✅ | 🟡 |
+| `/api/auth/login` | POST | ❌ | ⚪️ Auth need |
+| `/api/auth/logout` | POST | ✅ | ⚪️ Auth need |
+| `/api/auth/session` | GET | ✅ | ⚪️ Auth need |
+| `/api/auth/update-org-token` | POST | ✅ | ⚪️ Auth need |
 
 ### Account
 | Endpoint | Method | Auth | BOLA |
 |----------|--------|------|------|
-| `/api/create-account` | POST | ❌ | 🟡 Mass Assignment |
-| `/api/update-user-details` | POST | ✅ | 🔴 IDOR via URL |
+| `/api/create-account` | POST | ❌ | 🔴 Valnerable |
+| `/api/update-user-details` | POST | ✅ | ⚪️ Auth cookie need |
 
 ### Signup
 | Endpoint | Method | Auth | BOLA |
 |----------|--------|------|------|
-| `/api/signup/change-email` | POST | ❌ | 🟡 Session hijack |
-| `/api/signup/finalize` | POST | ❌ | 🔴 Finalize for others |
-| `/api/signup/request-verification` | POST | ❌ | 🟢 |
-| `/api/signup/resend` | POST | ❌ | 🟢 |
+| `/api/signup/change-email` | POST | ❌ | ⚪️ Auth cookie need |
+| `/api/signup/finalize` | POST | ❌ | ⚪️ Token need |
+| `/api/signup/request-verification` | POST | ❌ | ⚪️ Register - not vuln |
+| `/api/signup/resend` | POST | ❌ | ⚪️ Auth cookie need |
 
 ### Onboarding
 | Endpoint | Method | Auth | BOLA |
