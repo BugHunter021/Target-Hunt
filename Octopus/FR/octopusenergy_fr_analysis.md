@@ -23,7 +23,7 @@
 |----------|--------|------|
 | `/api/account/add-campaign-to-account` | POST | 🔴 **Confirmed** |
 | `/api/account/create-account` | POST | 🟡 Potential |
-| `/api/account/create-account-note` | POST | 🟡 Potential |
+| `/api/account/create-account-note` | POST | 🔴 **Confirmed** |
 | `/api/account/create-metadata` | POST | 🔴 **Confirmed** |
 
 ### GraphQL
@@ -46,7 +46,7 @@
 | `/api/onboarding/collect-deposit` | POST | 🟡 Potential |
 | `/api/onboarding/compute-energy-landscape` | POST | 🟡 Potential |
 | `/api/onboarding/eligibility-check-quote` | POST | 🟡 Potential |
-| `/api/onboarding/enrollment` | POST | 🟡 **High Risk** |
+| `/api/onboarding/enrollment` | POST | 🔴 **Confirmed** |
 | `/api/onboarding/fraudster-detection` | POST | 🟡 Potential |
 | `/api/onboarding/join-supplier-accept-terms-and-conditions` | POST | 🟡 Potential |
 | `/api/onboarding/select-products` | POST | 🟡 Potential |
@@ -54,9 +54,9 @@
 | `/api/onboarding/update-user-details-deposit-type` | POST | 🔴 **Confirmed** |
 
 ### Payment
-| Endpoint | Method |
-|----------|--------|
-| `/api/payment-instruction/generate-secret` | POST |
+| Endpoint | Method | BOLA |
+|----------|--------|------|
+| `/api/payment-instruction/generate-secret` | POST | 🔴 **Confirmed**
 
 ### Content / CMS
 | Endpoint | Method |
