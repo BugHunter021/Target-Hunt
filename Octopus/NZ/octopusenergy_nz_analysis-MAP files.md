@@ -17,20 +17,20 @@
 
 ## 2. REST API Endpoints
 
-| # | Endpoint | Method | Purpose |
-|---|----------|--------|---------|
-| 1 | `/api/address/autocomplete` | GET | 🔴 Address autocomplete — no auth |
-| 2 | `/api/address/icp-lookup` | POST | 🔴 Address → ICP lookup — no auth |
-| 3 | `/api/address/metadata` | GET | Address metadata (needs pxid format) |
-| 4 | `/api/address/verification` | POST | Address verification |
-| 5 | `/api/icp-details` | GET | 🔴 ICP details (confirmed BOLA) |
-| 6 | `/api/icp-search` | GET | 🔴 ICP search by number — **PII leak** |
-| 7 | `/api/nz/address/verification/` | POST | AddressFinder NZ verification |
-| 8 | `/api/onboarding/store-interests` | POST | Store onboarding interests |
-| 9 | `/api/payment_intents/create` | POST | Create Stripe payment intent |
-| 10 | `/api/time` | GET | Server time |
-| 11 | `/api/globals.html` | GET | External HTML globals |
-| 12 | `/api/content-delivery/v2/links/retrieve-multiple-links` | GET | Storyblok links |
+| # | Endpoint | Method | Purpose | Check |
+|---|----------|--------|---------|---------|
+| 1 | `/api/address/autocomplete` | GET | 🔴 Address autocomplete — no auth | Checked ❌
+| 2 | `/api/address/icp-lookup` | POST | 🔴 Address → ICP lookup — no auth | Checked ❌
+| 3 | `/api/address/metadata` | GET | Address metadata (needs pxid format) | Checked ❌
+| 4 | `/api/address/verification` | POST | Address verification | Checked ❌
+| 5 | `/api/icp-details` | GET | 🔴 ICP details (confirmed BOLA) | Checked ❌
+| 6 | `/api/icp-search` | GET | 🔴 ICP search by number — **PII leak** | Checked ❌
+| 7 | `/api/nz/address/verification/` | POST | AddressFinder NZ verification | Checked ❌
+| 8 | `/api/onboarding/store-interests` | POST | Store onboarding interests | Checked ❌
+| 9 | `/api/payment_intents/create` | POST | Create Stripe payment intent | Not Check 🟡
+| 10 | `/api/time` | GET | Server time | Checked ❌
+| 11 | `/api/globals.html` | GET | External HTML globals | Not Check 🟡
+| 12 | `/api/content-delivery/v2/links/retrieve-multiple-links` | GET | Storyblok links | Not Check 🟡
 
 ---
 
